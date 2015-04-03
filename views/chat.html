@@ -1,0 +1,136 @@
+<html>
+
+<head>
+
+	<title>Chat privado | Solvetic.com</title>
+
+	<link type="text/css" rel="stylesheet" href="../css/estilos_chat.css" />
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans Condensed:300italic,300,700" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+
+	<header class="banner">
+
+			<h1 class="textobanner">
+				<a href="http://solvetic.com" id="logo">Solvetic.com</span></a>
+			</h1>
+
+	</header>
+
+<section class="section">
+
+
+		<div class="conectado">
+
+			<img src="../img/user.png" id="imagenDefecto" />
+
+			<div class="infoConexion">
+				<h2>Ingresa tus datos</h2>
+				<br/>
+
+				<form class="FormLogin">
+					<input type="text" id="nombre" placeholder="Nombre de usuario" /><br/>
+					<input type="text" id="email" placeholder="Correo electronico" /><br/>
+					<input type="submit" id="ingresar" value="Ingresar" />
+				</form>
+
+			</div>
+
+		</div>
+
+
+		<div class="usuarioEnChat">
+
+			<img src="../img/user2.png" id="imagenUsuario2" />
+
+			<div class="informacion">
+				<h2>Hablar con <span class="usuario-chat"></span></h2>
+				<br/>
+
+				<form class="FormLogin">
+					<input type="text" id="nombre2" placeholder="Tu nombre" /><br/>
+					<input type="text" id="email2" placeholder="Tu correo electronico" /><br/>
+					<input type="submit" id="ingresar2" value="Empezar" />
+				</form>
+
+			</div>
+
+		</div>
+
+
+		<div class="invitarAmigo">
+
+			<h2>No hay personas en este chat</h2>
+			<h5>Puedes invitar a tus amigos enviandolos esta URL</h5>
+
+			<div class="link">
+				<a title="Invitar amigo" href="" id="link"></a>
+			</div>
+
+		</div>
+
+
+
+		<div class="dejoChat">
+
+			<img src="../img/user2.png" id="dejoChatImagen" />
+
+			<div class="informacion">
+				<h2><span class="dejoChatNombre"></span> ha dejado el chat</h2>
+				<h5>Invita a alguien mas a este chat enviando esta pagina</h5>
+			</div>
+
+		</div>
+
+
+		<div class="muchasPersonas">
+
+			<h2>Ya no puedes unirte a este chat</h2>
+
+		</div>
+
+		<div class="sinMensajes">
+
+			<img src="../img/user2.png" id="ImagenNoMensajes" />
+
+			<div class="info">
+				<h2>Estas conversando con <span class="usuario-chat"></span>.</h2>
+				<h5>Manda un mensaje desde el formulario inferior</h5>
+			</div>
+
+		</div>
+
+
+		<div class="ventanaChats">
+
+			<ul class="chat">
+				<!-- Aqui iran los chats -->
+			</ul>
+
+		</div>
+
+
+</section>
+
+	<footer>
+
+		<form id="formChat">
+
+			<textarea id="mensaje" placeholder="Escribe algo"></textarea>
+			<input type="submit" id="submit" value="Enviar"/>
+
+		</form>
+
+	</footer>
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="../js/moment.min.js"></script>
+	<script src="../js/chat.js"></script>
+
+</body>
+
+</html>

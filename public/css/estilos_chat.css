@@ -1,0 +1,575 @@
+
+body {
+	background-color: #d5dae4;
+	color:#ffffff;
+	font: 16px/1.3 'Arial',sans-serif;
+}
+
+/* ------ Estilos Home ------ */
+
+
+.banner {
+	height: 120px;
+	background-color: #032c8e;
+}
+
+.textobanner {
+	text-align:center;
+	padding-top: 35px;
+	font-family: 'Open Sans Condensed',serif;
+	font-weight: bold;
+	color:white;
+}
+.textobanner span {
+	color: #d6441b;
+}
+
+#logo {
+	text-decoration: none;
+	color:white;
+}
+#logo:visited {
+	color: white;
+}
+
+.home {
+	text-align:center;
+	margin-top:30px;
+}
+
+.solvetic {
+	padding-top: 15px;
+	text-align:center;
+	margin-bottom:50px;
+}
+
+.solvetic #chat {
+	font-family: 'Open Sans Condensed';
+	font-weight: bold;
+	color: #707368;
+}
+
+#solveticlogo {
+	width: 300px;
+	height: 100px;
+	margin-bottom: 15px;
+}
+
+#crear {
+	width: 250px;
+	height: 100px;
+	background-color: #54a2df;
+	text-align:center;
+	display: block;
+	margin:20px auto;
+	border-radius: 5px;
+	box-shadow: 0px 5px 5px #e4e8e7;
+	text-decoration: none;
+	margin-bottom: 20px;
+	color: #eeffff;
+}
+#crear:visited {
+	color: #eeffff;
+	text-decoration: none;
+}
+#botoncrear {
+	padding-top: 30px;
+}
+
+#texto_boton {
+	font-weight: bold;
+	font-size: 23px;
+}
+
+/* ------ Estilos Inicio de Sesion ------*/
+
+.conectado {
+	text-align:center;
+	display: block;
+	margin:0px auto;
+	width: 700px;
+	height: 400px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	color: #637277;
+}
+
+.conectado h2 {
+	padding-top: 20px;
+}
+
+.infoConexion {
+	text-align: left;
+	float: right;
+	margin: 65px 165px 0 0;
+}
+
+#imagenDefecto {
+	float: left;
+	margin: 90px 0 0 140px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+#nombre {
+	float:left;
+	padding-left:10px;
+	width: 200px;
+	height: 30px;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	background-color: #f0f1f3;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	margin-bottom:20px;
+	overflow: hidden;
+}
+
+#email {
+	float:left;
+	padding-left: 10px;
+	width: 200px;
+	height: 30px;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	background-color: #f0f1f3;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	margin-bottom:40px;
+}
+
+#ingresar {
+	float:left;
+	width: 110px;
+	height: 40px;
+	text-align:center;
+	background-color: #73b4d4;
+	border: none;
+	box-shadow: 3px 3px 3px #efedee;
+	border-radius: 2px;
+	color:white;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+
+/* ------ Invitar amigo ------ */
+
+
+.invitarAmigo {
+	text-align:center;
+	display: block;
+	margin:0px auto;
+	width: 750px;
+	height: 300px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	color: #637277;
+}
+.invitarAmigo h2 {
+	padding-top: 80px;
+}
+.invitarAmigo h5 {
+	 font-weight: normal;
+	 margin: 10px 0 35px;
+ }
+.invitarAmigo .link {
+	width: 600px;
+	height: 35px;
+	text-align:center;
+	display: block;
+	margin:0px auto;
+	padding-top: 15px;
+	margin-bottom:120px;
+	border-radius: 4px;
+	background-color: #f0f1f3;
+}
+.invitarAmigo #link{
+	text-decoration: none;
+	color: #637277;
+}
+
+/* ------ Usuario en chat ------*/
+
+.usuarioEnChat {
+	text-align:center;
+	display: block;
+	margin:0px auto;
+	width: 700px;
+	height: 400px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	color: #637277;
+}
+.usuarioEnChat h2 {
+	padding-top: 20px;
+	width: 210px;
+	overflow: hidden;
+}
+
+.informacion {
+	text-align: left;
+	float: right;
+	margin: 65px 165px 0 0;
+}
+
+#imagenUsuario2 {
+	float: left;
+	margin: 90px 0 0 140px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+#nombre2 {
+	float:left;
+	padding-left:10px;
+	width: 200px;
+	height: 30px;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	background-color: #f0f1f3;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	margin-bottom:20px;
+}
+
+#email2 {
+	float:left;
+	padding-left: 10px;
+	width: 200px;
+	height: 30px;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	background-color: #f0f1f3;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	margin-bottom:40px;
+}
+
+#ingresar2 {
+	float:left;
+	width: 110px;
+	height: 40px;
+	text-align:center;
+	background-color: #73b4d4;
+	border: none;
+	box-shadow: 3px 3px 3px #efedee;
+	border-radius: 2px;
+	color:white;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+
+/* ------ Sin mensajes ------ */
+
+
+.sinMensajes {
+	text-align:center;
+	display: block;
+	margin:0px auto;
+	width: 750px;
+	height: 300px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	color: #637277;
+	margin-bottom: 400px;
+}
+.sinMensajes h2 {
+	padding-top: 50px;
+	overflow: hidden;
+	padding-bottom: 6px;
+}
+.sinMensajes h5 {
+	font-weight: normal;
+	margin-bottom: 100px;
+}
+
+#ImagenNoMensajes {
+	float: left;
+	margin: 90px 0 0 140px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+#img {
+	float: left;
+	margin: 90px 0 0 140px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.info {
+	text-align: left;
+	float: right;
+	margin: 65px 60px 0 0;
+	width: 405px;
+	overflow: hidden;
+}
+
+.usuario-chat {
+	overflow: hidden;
+}
+
+
+/* ------ Contenedor de mensajes ------ */
+
+.image {
+	clear:both;
+	float:left;
+	height: 160px;
+	width: 80px;
+	text-align:center;
+	overflow: hidden;
+}
+
+.image img {
+	float: left;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.body {
+	text-align:center;
+	width: 40%;
+	display: block;
+	margin:0px auto 650px;
+	background-color: #ffffff;
+	color: #637277;
+}
+
+.chat {
+	list-style-type: none;
+	margin-top:10px;
+}
+
+.usuario {
+	clear:both;
+	float:left;
+	margin-bottom:10px;
+}
+
+.invitado {
+	clear:both;
+	float:right;
+	margin-bottom:10px;
+}
+
+.invitado .image{
+	float:right;
+}
+
+.chat .usuario p {
+	text-align:left;
+	float: left;
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom:30px;
+	padding: 25px 34px;
+	min-width: 160px;
+	min-height: 10px;
+	max-width: 510px;
+	background-color: #FFF;
+	border-radius: 3px;
+	box-shadow: 0px 3px 3px #E3E4E6;
+	color: #637277;
+	line-height: 1.4;
+	word-wrap: break-word;
+}
+
+.chat .invitado p {
+	text-align:left;
+	float: left;
+	display: inline-block;
+	margin-right:20px;
+	margin-bottom:30px;
+	padding: 25px 34px;
+	min-width: 160px;
+	min-height: 10px;
+	max-width: 510px;
+	background-color: #FFF;
+	border-radius: 3px;
+	box-shadow: 0px 3px 3px #E3E4E6;
+	color: #637277;
+	line-height: 1.4;
+	word-wrap: break-word;
+}
+
+.image b {
+	overflow: hidden;
+	display: block;
+	clear: both;
+	padding-top: 7px;
+}
+
+.image i{
+	font-size: 12px;
+	line-height: 1.2;
+	display: block;
+	opacity: 0.8;
+	padding-top: 4px;
+}
+
+
+/* ------------ Footer styles ------------ */
+
+footer {
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	padding-top: 30px;
+	background-color: white;
+	height: 130px;
+}
+
+#formChat {
+	width:700px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+#mensaje {
+	width: 550px;
+	height: 80px;
+	display: block;
+	float:left;
+	margin: 0 auto;
+	background-color: #f9f9f9;
+	border: 1px solid #cccccc;
+	border-radius: 2px;
+	padding-left: 20px;
+	padding-top: 20px;
+	resize: none;
+	font:inherit;
+	color:black;
+}
+
+#submit {
+	width: 110px;
+	height: 60px;
+	float:right;
+	text-align:center;
+	background-color: #032c8e;
+	display: block;
+	margin: 0 auto;
+	border: none;
+	box-shadow: 3px 3px 3px #efedee;
+	border-radius: 2px;
+	color:white;
+	font-weight: bold;
+	font-size: 17px;
+	outline: none;
+	cursor:pointer;
+}
+
+
+
+
+
+
+/* ------ Dejo chat ------*/
+
+.dejoChat {
+	text-align:center;
+	display: block;
+	margin:0px auto;
+	width: 750px;
+	height: 300px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	color: #637277;
+	margin-bottom: 400px;
+}
+.dejoChat h2 {
+	padding-top: 50px;
+	padding-bottom: 6px;
+}
+.dejoChat h5 {
+	font-weight: normal;
+	margin-bottom: 100px;
+}
+
+#dejoChatImagen {
+	float: left;
+	margin: 90px 0 0 140px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.dejoChatNombre{
+	width: 40px;
+	overflow: hidden;
+}
+
+/* ------ Muchas personas------*/
+
+
+.muchasPersonas {
+	text-align:center;
+	display: block;
+	margin:0px auto;
+	width: 750px;
+	height: 300px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	box-shadow:0px 3px 3px #e3e4e6;
+	color: #637277;
+}
+.muchasPersonas h2 {
+	padding-top: 100px;
+	padding-bottom: 8px;
+}
+
+
+/* ---------------------- HIDE -------------------------- */
+.dejoChat{
+	display: none;
+}
+
+.conectado {
+	display: none;
+}
+
+.usuarioEnChat {
+	display: none;
+}
+
+.invitarAmigo {
+	display:none;
+}
+
+.sinMensajes{
+	display:none;
+}
+
+.muchasPersonas {
+	display:none;
+}
+
+footer {
+	display:none;
+}
+
+.ventanaChats{
+	display:none;
+	width:700px;
+	margin: 0 auto 200px;
+	overflow:hidden;
+}
